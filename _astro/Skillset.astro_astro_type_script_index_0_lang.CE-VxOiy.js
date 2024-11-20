@@ -1,0 +1,1 @@
+import{a as s,s as l}from"./stagger.l0LwavZt.js";const t=document.querySelectorAll("[data-index]"),o=t.length,e=1,a=.8,n=async()=>{await s(t,{y:[0,-8,0],scale:[1,1.1,1]},{duration:e,delay:l(a),ease:"easeInOut"}),setTimeout(n,o*a+e)};n();
